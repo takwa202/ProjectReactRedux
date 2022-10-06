@@ -1,0 +1,24 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "dev": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tak223/multerupload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tak223/multerupload/issues"
+  },
+  "homepage": "https://github.com/tak223/multerupload#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
